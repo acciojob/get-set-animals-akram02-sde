@@ -1,11 +1,11 @@
 //complete this code
 class Animal {
 	constructor(species){
-		_this.species = species;
+		this.species = species;
 	}
 
 	makesound() {
-		console.log(`The ${_this.species} makes a sound`)
+		console.log(`The ${this.species} makes a sound`)
 	}
 }
 
