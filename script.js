@@ -6,20 +6,20 @@ class Animal {
 	get species(){
 		return this._species
 	}
-	 makeSound(sound){
-		console.log(sound)
+	 makeSound(){
+		console.log(`The ${this._species} makes a sound`)
 	}
 }
 
 class Dog extends Animal {
 	 bark(){
-		this.makeSound('woof')
-	}
+		console.log("woof")
+	 }
 }
 
 class Cat extends Animal {
 	 purr(){
-		this.makeSound('purr')
+		console.log("purr")
 	}
 }
 
